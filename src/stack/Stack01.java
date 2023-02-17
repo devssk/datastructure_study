@@ -3,7 +3,7 @@ package stack;
 import java.util.EmptyStackException;
 
 // 스택 구현하기
-// stack? 마지막에 들어온것이 먼저 나가는 배열
+// stack? 마지막에 들어온것이 먼저 나가는 일직선 데이터 구조
 // Last In First Out 줄여서 LIFO라고도 하며 한국어로 하면 후입선출
 class Stack<T> {
 

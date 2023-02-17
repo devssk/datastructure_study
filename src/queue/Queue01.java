@@ -3,7 +3,7 @@ package queue;
 import java.util.NoSuchElementException;
 
 // 큐 구현하기
-// queue? 먼저 들어온것이 먼저 나가는 배열
+// queue? 먼저 들어온것이 먼저 나가는 일직선 데이터 구조
 // First In First Out 줄여서 FIFO라고도 하며 한국어로 하면 선입선출
 class Queue<T> {
     class Node<T> {
